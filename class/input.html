@@ -9,13 +9,22 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <form action="" method="get">
-  <input type="email" placeholder="이메일을 입력하세요">
-  <input type="password"placeholder="비밀번호"minlength="6">
-  <input type="url"placeholder="포트폴리오 url값을 적으시오">
-  <input type="number"placeholder="나이를 입력하세요."min="10"max="100">
-  <input type="file" accept=".gif, .jpg">
-  <button>submit</button>
+  <h1>회원가입</h1>
+    <form action="" method="get">
+  <label for="name">이름</label>
+    <input id = "name"type="text"placeholder="이름을 입력하세요">
+  <label for="email">이메일</label>
+    <input ip="email" type="email" placeholder="이메일을 입력하세요">
+  <label for="password">비밀번호</label>
+    <input id = "password"type="password"placeholder="비밀번호"minlength="6">
+  <label for="type">url입력</label>
+    <input id = "type" type="url"placeholder="포트폴리오 url값을 적으시오">
+  <label for="number">나이</label>
+    <input id = "number"type="number"placeholder="나이를 입력하세요."min="10"max="100">
+  <label for="file">파일</label>
+    <input id ="file" type="file" accept=".gif, .jpg">
+  <label for="submit">확인</label>
+    <button id="submit">submit</button>
 </form>
 </body>
 </html>
